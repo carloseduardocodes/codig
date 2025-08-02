@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        margin: 0px;
+    }
+    header{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+    }
+    main{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 0px 20px;
+    }
+    footer{
+        background-color: black;
+        color: lightgray;
+        text-align: center;
+        padding: 5px;
+        margin: 0px;
+    }
+    footer > p {
+        margin: 0px;
+    }
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }
+    article > aside {
+        background-color: rgb(119, 118, 118);
+    }
+    nav{
+        background-color: rgb(129, 128, 128);
+        padding: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
+    }
+    nav > a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 15px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    
+</style>
+
+<body>
+
+    <header>
+
+        <h1>Meu site</h1>
+
+        <nav>   
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="noticias">
+            <p>Asuntos</p>
+
+        </section>
+
+        <section id="assuntos">
+
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas non totam dolor a deserunt quidem tempora distinctio, aliquam, similique sit incidunt facere ab dignissimos, quaerat aut? Natus dignissimos obcaecati nisi!</p>
+
+                <aside>
+                    <p>Escrito por Smith</p>
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+    
+    <footer>
+        <P>Desenvolvido por Eduardo</P>
+    </footer>
+
+</body>
+</html>
