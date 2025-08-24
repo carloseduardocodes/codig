@@ -12,17 +12,17 @@
 
 <body>
     <div class="container">
-        <form action="">
+        <form action="" method="post">
             <h1>LOGIN</h1>
             <div class="box-usu">
                 <label for="iname"></label>
-                <input placeholder="usuario" type="text" name="name" id="iname">
+                <input placeholder="usuario" type="text" name="name" id="iname" autocomplete="off" required minlength="6" maxlength="20" >
                 <i class='bx bxs-user'></i>
             </div>
           
             <div class="box-usu">
                 <label for="isenha"></label>
-                <input placeholder="senha" type="password" name="name" id="isenha">
+                <input placeholder="senha" type="password" name="name" id="isenha" required minlength="6" maxlength="20">
                 <i class='bx bxs-lock'></i>
             </div>
             <div class="box-esqui">
